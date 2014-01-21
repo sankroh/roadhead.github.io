@@ -1,0 +1,7 @@
+.layout {
+    padding: 5px 20px;
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+}
+.sidebar { position:fixed; top:0; bottom:0; margin-left: -25%; width: 25%; }
