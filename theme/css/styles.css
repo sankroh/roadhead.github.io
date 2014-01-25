@@ -4,6 +4,16 @@ body,
     font-family: 'PT Sans', Georgia, sans-serif;
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
 .layout {
     position: relative;
     margin: 0 auto;
@@ -41,6 +51,31 @@ h1 a, h1 a:link, h1 a:visited, h1 a:hover, h1.title {
     text-decoration: none;
     color: #333332;
 }
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 0px;
+  padding: 1.5em 10px;
+  color: #999;
+  /*quotes: "\201C""\201D""\2018""\2019";*/
+}
+
+/*blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}*/
+
+blockquote p {
+  display: inline;
+}
+
+.footnote { font-size: 0.5em; }
+.footnote-ref { margin-top: 1em; font-size: 0.5em; }
 
 span.date { color: #b3b3b1; }
 
